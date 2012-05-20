@@ -47,6 +47,8 @@ public AcceptRoleRequestController() {
     map.put("person",user);
     map.put("requestRole", requestRole);
     map.put("choosenGroup", choosenGroup);
+
+
     return map;
   }
 
