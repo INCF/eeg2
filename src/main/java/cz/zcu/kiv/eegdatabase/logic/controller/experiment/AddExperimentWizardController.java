@@ -51,6 +51,7 @@ public class AddExperimentWizardController extends AbstractWizardFormController 
     private GenericDao<SubjectGroup, Integer> subjectGroupDao;
     private static final int MAX_MIMETYPE_LENGTH = 40;
 
+
     public ParameterMethodNameResolver getMethodNameResolver() {
         return methodNameResolver;
     }
